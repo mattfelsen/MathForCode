@@ -68,7 +68,7 @@ void draw() {
 
   // show the sin/cos values
   String cosText = "cos: " + cos(theta);
-  String sinText = "sin: " + -sin(theta);
+  String sinText = "sin: " + sin(theta);
   text(cosText, 25, 800);
   text(sinText, 25, 870);
 }
