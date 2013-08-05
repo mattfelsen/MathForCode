@@ -15,7 +15,7 @@ void draw() {
 
   float r = 300 + time*25;
   //float r = map(sine, -1, 1, 300, 700);
-  //ellipse(width/2, height/2, r, r);
+  ellipse(width/2, height/2, r, r);
 
   float xPos = map(sine, -1, 1, 0, width);
   float yPos = map(sine, -1, 1, 0, height);
